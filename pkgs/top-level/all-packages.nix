@@ -6624,6 +6624,8 @@ in
 
   thc-hydra = callPackage ../tools/security/thc-hydra { };
 
+  thc-ipv6 = callPackage ../tools/networking/thc-ipv6 { };
+
   theharvester = callPackage ../tools/security/theharvester { };
 
   inherit (nodePackages) thelounge;
